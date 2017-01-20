@@ -7,7 +7,7 @@ function support(){
     x = document.getElementById("question").value
 if (o===0){
     y = document.getElementById("qans").value
-    if(yy==="A"){
+    if(yy==="D"){
         document.getElementById("question").value="You are right"
         n=n+1
     }
@@ -19,7 +19,7 @@ if (o===0){
 }
 else if (o===1){ 
 	y = document.getElementById("qans").value
-    if(yy==="D"){
+    if(yy==="A"){
         document.getElementById("question").value="You are right"
         n= n+1
     }
@@ -31,7 +31,7 @@ else if (o===1){
 }
 else if (o===2){ 
 	y = document.getElementById("qans").value
-    if(yy==="B"){
+    if(yy==="C"){
         document.getElementById("question").value="You are right"
         n=n+1
     }
@@ -43,7 +43,7 @@ else if (o===2){
 }
 else if (o===3){ 
 	y = document.getElementById("qans").value
-    if(yy==="C"){
+    if(yy==="B"){
         document.getElementById("question").value="You are right"
         n=n+1
     }
@@ -55,7 +55,7 @@ else if (o===3){
 }
 else if (o===4){ 
 	y = document.getElementById("qans").value
-    if(yy==="D"){
+    if(yy==="A"){
         document.getElementById("question").value="You are right"
         n=n+1
     }
@@ -67,7 +67,7 @@ else if (o===4){
 }
 else if (o===5){ 
 	y = document.getElementById("qans").value
-    if(yy==="A"){
+    if(yy==="C"){
         document.getElementById("question").value="You are right"
         n=n+1
     }
@@ -79,7 +79,7 @@ else if (o===5){
 }
 else if (o===6){ 
 	y = document.getElementById("qans").value
-    if(yy==="B"){
+    if(yy==="C"){
         document.getElementById("question").value="You are right"
         n=n+1
     }
@@ -91,7 +91,7 @@ else if (o===6){
 }
 else if (o===7){ 
     y = document.getElementById("qans").value
-    if(yy==="C"){
+    if(yy==="A"){
         document.getElementById("question").value="You are right"
         n=n+1
     }
@@ -103,7 +103,7 @@ else if (o===7){
 }
 else if (o===8){ 
 	y = document.getElementById("qans").value
-    if(yy==="D"){
+    if(yy==="B"){
         document.getElementById("question").value="You are right"
         n=n+1
     }
@@ -115,7 +115,7 @@ else if (o===8){
 }
     else if (o===9){
     y = document.getElementById("qans").value
-    if(yy==="C"){
+    if(yy==="D"){
         document.getElementById("question").value="You are right"
         n=n+1
     }
@@ -176,7 +176,7 @@ else if (i===9){
 }
 else if (i===10){
 	document.view.qnum.value=i;	
-	document.view.question.value ="What is the term used for composing music by writing a melody forwards, backwards, then performing the song? \na)Retrograde \nb)Legato \nc)Theme and variation \nd) Reverse";
+	document.view.question.value ="What is the term used for composing music by writing a melody forwards, backwards, then performing the song? \na)Retrograde \nb)Legato \nc)Theme and variation \nd)Reverse";
     document.view.qans.value=""
 }
 else if (i===11){
